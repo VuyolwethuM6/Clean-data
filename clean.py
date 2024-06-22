@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the data
-file_path = '../../Downloads/Dam Levels Master Data_2024_06_03.xlsx'
+file_path = ''
 master_df = pd.read_excel(file_path, sheet_name='MASTER')
 
 # Rename the columns
